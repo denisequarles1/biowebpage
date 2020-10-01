@@ -10,7 +10,7 @@ The purpose of this website is for you to learn more about my educational backgr
 
  While working on this project, I learned about how to utilize Bootstrap to control how webiste content is displayed. <br>
  
- <img src="biowebpage.jpg"> 
+ <img src="biowebpage.JPG"> 
  
 
 ## Installation
