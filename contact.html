@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Portfolio Site</title>
+
+<!-- Bootstrap CDN -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Navigation Bar that shows links for Contact, Portfolio, and Index pages-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-1">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand mr-3">Denise Quarles</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+  <main>
+    <!--Displays background image behind the card with the contact information-->
+    <div class="jumbotron background-pic">
+      <div class="container">
+        <div class="row">
+          <div class="card" style="width: 900px;">
+            <div class="col-md-12">
+              <h1>Contact</h1> 
+              
+              <!--Displays form to input Name, Email Address, and a Message with a Submit Button-->
+              <form>
+                <div class="form-group">
+                  <label for="inputName">Name</label>
+                  <input type="text" class="form-control" id="inputName" placeholder="Name">
+                </div>
+                
+                <div class="form-group">
+                  <label for="inputEmail">Email</label>
+                  <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+              
+                <div class="form-group">
+                  <label for="inputMessage">Message</label>
+                  <textarea name="Message" class="form-control" id="inputMessage" tabindex="4" placeholder="Message"></textarea>
+                </div>
+
+                <div class="form-group">
+                  <input class="btn btn-outline-dark" type="submit" value="Submit">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!--Sticky footer-->
+<footer id="sticky-footer" class="py-4 bg-dark text-light">
+  <div class="container text-center">
+     <p>Copyright &copy; Denise Quarles Website</p>
+  </div>
+</footer>
+
+</body>
+</html>
+  
