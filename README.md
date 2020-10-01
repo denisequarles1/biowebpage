@@ -2,7 +2,7 @@
 ## Table of Contents
 * [Description](#description)
 * [Installation](#installation)
-* [Link](#link)
+* [Application](#application)
 * [Credits](#credits)
 
 ## Description
@@ -22,7 +22,7 @@ The purpose of this website is for you to learn more about my educational backgr
 
 4. The repository will then be copied onto your computer and you can run the index file to see the Horiseon website.
 
-## Link
+## Application
 The deployed application can be found here: https://denisequarles1.github.io/biowebpage/
 
 
